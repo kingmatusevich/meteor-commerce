@@ -1,4 +1,4 @@
 meteor-commerce
 ===============
 
-A meteor commerce project
+A meteor commerce project.
