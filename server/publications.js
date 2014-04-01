@@ -1,9 +1,9 @@
 Meteor.publish('categories', function() {
-  return Categories.find();
+	return Categories.find();
 });
 Meteor.publish('products', function() {
-  return Products.find();
+	return Products.find();
 });
-Meteor.publish('stores', function () {
+Meteor.publish('stores', function() {
 	return Stores.find();
 });

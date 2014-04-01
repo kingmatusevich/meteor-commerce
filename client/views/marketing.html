@@ -1,11 +1,11 @@
 <template name="marketing">
-	  <div class="row marketing">
-		  {{#each marketingColums}}
-        <div class="col-lg-6">
-			{{#each marketingItems}}
-				{{> marketingItem}}
-			{{/each}}
-		</div>
+	<div class="row marketing">
+		{{#each marketingColums}}
+        	<div class="col-lg-6">
+				{{#each marketingItems}}
+					{{> marketingItem}}
+				{{/each}}
+			</div>
 		{{/each}}
-      </div>
+	</div>
 </template>
