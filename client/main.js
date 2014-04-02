@@ -8,7 +8,7 @@ Deps.autorun(function() {
 
 Template.news.helpers({
 	heading: function() {
-		return Stores && currentStore && currentStore.heading; // || 'This is a default title!';
+		return Stores && currentStore && currentStore.heading; //|| 'This is a default title!';
 	},
 	lead: function() {
 		return Stores && currentStore && currentStore.lead; // || 'Get to work, you lazy bum!';
@@ -17,3 +17,4 @@ Template.news.helpers({
 		return Stores && currentStore && currentStore.buttonText; // || 'Get crackin';
 	}
 });
+

@@ -9,7 +9,8 @@ accounts-password
 accounts-ui-bootstrap-3-blaze
 roles
 iron-router
-fast-render
 iron-router-progress
 spiderable
 force-ssl
+spin
+fast-render
